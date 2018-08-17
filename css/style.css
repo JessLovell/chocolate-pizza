@@ -1,0 +1,167 @@
+/* GLOBAL STYLES */
+
+body {
+    max-width: 900px;
+    margin: 0px auto;
+}
+
+/* * {
+    outline: 1px solid blue;
+} */
+
+
+/* HEADER */
+header {
+    margin-top: 30px;
+}
+
+nav {
+    margin-bottom: 30px; 
+}
+
+header img {
+    float: left;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+header h1 {
+    font-family: cursive;
+    font-style: italic;
+    font-size: 35px; 
+    padding-top: 15px;
+}
+
+header h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+nav li {
+    /* display: inline-block; */
+    float: right;
+    color:white;
+}
+
+ul img {
+    margin-right: 2px;
+}
+
+nav ul:last-child {
+    margin-right: 10px;
+}
+
+
+/* BODY STYLING */
+#Article-Header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#Article-Header h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: grey;
+}
+
+#Article-Header li {
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: grey;
+}
+
+#Article-Header {
+    padding-bottom: 20px;
+}
+
+p {
+    text-indent: 30px;
+    padding-top: 30px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+#Ingredients {
+    background-image: url("/img/list-bg.png");
+    height: 175px;
+    padding: 30px;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#Ingredients ul {
+    background: transparent;
+    font-family: 'Courier New', Courier, monospace;
+    column-count: 2;   
+}
+#Ingredients li.strikethrough {
+    text-decoration: line-through;
+}
+
+hr {
+    height: 10px;
+    background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}
+
+#Author {
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+#Author img {
+    float: left;
+    padding-right: 20px;
+}
+
+#Author h1 {
+    font-weight: bold;
+    font-size: 18px;
+    width: 600
+}
+#Author p {
+    font-size: 15px;
+    text-indent: 0px;
+    width: 600px;
+    padding-left: 20px;
+    padding-top: 10px;
+    line-height: 1.3;
+}
+
+#Author button {
+    float: right;
+    border: none;
+    font-size: 10px;
+    color: #fff;
+    background: red;
+    padding: 10px 30px;
+    transition: 350ms;
+}
+
+/* FOOTER */
+footer {
+    display: block;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer img {
+    display: block;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+footer p {
+    font-size: 10px;
+    color: grey;
+    text-align: center;
+    padding-top: 10px;
+} 
