@@ -38,11 +38,12 @@ header h2 {
 }
 
 nav li {
-    /* display: inline-block; */
     float: right;
     color:white;
 }
-
+nav li:nth-child(3){
+    padding-right:5px;
+}
 ul img {
     margin-right: 2px;
 }
@@ -85,7 +86,7 @@ p {
 
 #Ingredients {
     background-image: url("/img/list-bg.png");
-    height: 175px;
+    height: 245px;
     padding: 30px;
     line-height: 1.5;
     margin-top: 20px;
@@ -95,6 +96,7 @@ p {
 #Ingredients ul {
     background: transparent;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
     column-count: 2;   
 }
 #Ingredients li.strikethrough {
@@ -119,7 +121,7 @@ hr {
 
 #Author h1 {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
     width: 600
 }
 #Author p {
